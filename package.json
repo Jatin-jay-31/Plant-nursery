@@ -1,6 +1,6 @@
 {
   "name": "paradise-nursery-shopping-application",
-  "private": true,
+  "private": false,
   "homepage":"./",
   "version": "0.0.0",
   "type": "module",
