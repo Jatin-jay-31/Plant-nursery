@@ -6,13 +6,13 @@ import ShoppingCartPage from './pages/ShoppingCartPage';
 
 function App() {
   return (
-    <Router basename="/Final-Project-Paradise-Nursery-Shopping-Application">
+    <BrowserRouter basename="/Final-Project-Paradise-Nursery-Shopping-Application">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/products" element={<ProductListingPage />} />
         <Route path="/cart" element={<ShoppingCartPage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
